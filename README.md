@@ -27,3 +27,14 @@ Read the code yourself! If you can't
 you dont deserve to know it because
 that means you just want to skid it
 and NOT use it for edu purposes.
+
+---
+
+## FAQ
+
+- Why did you release this? - To help
+  coders learn more about trojans and 
+  also for fun.
+- Will you work on it again, even tho
+  it's an old project of yours? -
+  Probably.
