@@ -1,0 +1,36 @@
+plugins {
+    id 'groovy'
+}
+
+group 'org.ttd.ratdemo'
+version '1.0-SNAPSHOT'
+
+configurations {
+    atj
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    atj(implementation('org.codehaus.groovy:groovy-all:+'))
+    atj(implementation(files('TuddyLIB.jar')))
+}
+
+test {
+
+}
+
+jar {
+    from {
+        configurations.atj
+                .collect { it.isDirectory() ? it : zipTree(it) }
+    } {
+        exclude "LICENSE.txt", "META-INF/*"
+    }
+
+    manifest {
+        //attributes 'Main-Class': ''
+    }
+}
