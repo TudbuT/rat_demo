@@ -1,0 +1,19 @@
+{
+    "webhook": null,
+    "ip": "localhost",
+    "port": 28732,
+    "debug": true,
+    "run": {
+        "server": true,
+        "client": true
+    },
+    "obfuscation": [
+        [
+            " "
+        ],
+        [
+            [0, false],
+            [0, true]
+        ]
+    ]
+}

@@ -2,3 +2,5 @@
 /.gradle/
 /build/
 /obfed/
+/.idea
+/*.*.*.*_*
